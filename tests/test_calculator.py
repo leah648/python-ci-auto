@@ -2,7 +2,7 @@ import pytest
 from services.calculator_service import add, subtract, multiply, divide
 
 def test_add():
-    assert add(2, 3) == 0
+    assert add(2, 3) == 88
 
 def test_subtract():
     assert subtract(5, 3) == 1
